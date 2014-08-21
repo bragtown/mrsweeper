@@ -1,0 +1,16 @@
+/* Space out content a bit */
+
+.mainImage{
+  background: url('/images/shopping-center.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 36em;
+  background-position: center bottom;
+}
+.navbar{
+  border: none;
+}
+.mainImage > .navbar-default{
+  background-color: none;
+}
+
