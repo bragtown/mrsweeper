@@ -1,10 +1,7 @@
 'use strict';
 
 angular.module('mrsweepApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, $window) {
+	$scope.scroll = 0;    
+	
   });

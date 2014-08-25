@@ -1,16 +1,131 @@
-/* Space out content a bit */
-
-.mainImage{
-  background: url('/images/shopping-center.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 36em;
-  background-position: center bottom;
+.inverse{
+  background-color: white;
+  width: 100%;
 }
-.navbar{
+.guestcard{
+  background-color: black;
+  color: white;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.guestcard h3{
+  margin-left: 3em
+}
+.guestcard .checkbox{
+  margin-left: 4em;
+}
+.guestcard .form-control{
+  width: 25em;
+  margin-left: 4em;
+  margin-bottom: 1em;
+}
+.contact_bar{
+  position: fixed;
+  float: left;
+  left: 1em;
+  margin-top: 2em;  
+  color: white;
+}
+.contact_bar ul {
+  padding-left: 0em;
+  background-color: black;
+  z-index: 2;
+  padding: 1em;
+  border-radius: 3px;
+}
+.contact_bar li {
+  list-style: none;
+}
+.media_bar{
+  position: fixed;
+  margin-top: 4em;
+  float: right;
+  right: 1em;
+}
+.media_icon{
+  display: block;
+  width: 2em;
+  height: auto;
+  border-radius: 2px;
+}
+.nameandmission{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+.nameandmission img{
+  width: auto;
+  height: 15em;
+}
+.backdropImage{
+  background: url('/images/nitehawk.jpg');
+  background-size: 100% auto;
+  height: 25em;
+  background-attachment: fixed;
+  background-position: 50%;
+}
+.backdropImage2{
+  background: url('http://sportsthenandnow.com/wp/wp-content/uploads/2014/02/longboard.jpg');
+  background-size: 100% auto;
+  height: 30em;
+  background-attachment: fixed;
+  background-position: 50%;
+}
+
+.container{
+  height: inherit;
+}
+.thumbnail img{
+  height: 15em;
+  width: 100%;
+  border-radius: 100%;
+}
+.thumbnail{
   border: none;
 }
-.mainImage > .navbar-default{
-  background-color: none;
+.mainimage{
+  background: url('/images/mainstreet.jpg');
+  height: 36em;  
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
+.overlay{
+  background: rgba(180,180,180,0.82);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+.textarea{
+  margin-top: 2em;
+  color: black;
+  font-size: 1.5em;
 
+}
+body{
+ /* background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbo1oh7J46Rk6WOT1hoH_jtnAGfRMp39cScyrHEXiQtGSPslTV7A');*/
+  background-size: 100% auto;
+}
+.navbar{
+  width: 100%;
+  position: fixed;
+  top:0em;
+  background-color: black;
+  color: white;  
+  border-radius: 0em;
+  z-index: 2;
+}
+.nav h4{
+  margin-left: 4em; 
+}
+.myvideo{
+  padding-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 640px;
+}
